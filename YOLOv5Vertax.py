@@ -184,7 +184,7 @@ def detect(save_img=False):
                                     # speak('사거리입니다.')#TTS 사용시 출력할 Speak
                                     # setLabel(img, pts, 'ThreeWayBlock')
                                     setLabel(img, pts, '')
-                                elif vtc == 8:  # 사거리의 경우 꼭짓점 8
+                                elif vtc == 8:  # 삼거리의 경우 꼭짓점 8
                                     print("삼거리입니다.")
                                     # speak('삼거리입니다.')#TTS 사용시 출력할 Speak
                                     # setLabel(img, pts, 'ThreeWayBlock')
